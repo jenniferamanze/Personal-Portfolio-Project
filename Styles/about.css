@@ -26,7 +26,7 @@ body, p, .about-summary, .exp-desc, .exp-role, .exp-date, .exp-company, .capabil
 }
 
 .btn-resume {
-    background: #eaff9a;
+    background: #d4a574;
     color: #181818;
     border-radius: 30px;
     font-weight: 600;
@@ -36,8 +36,8 @@ body, p, .about-summary, .exp-desc, .exp-role, .exp-date, .exp-company, .capabil
 }
 
 .btn-resume:hover {
-    background: #d4a574;
-    color: #fff;
+    background: #fdefdf;
+    color: #181818;
 }
 
 .icon-btn {
@@ -45,7 +45,7 @@ body, p, .about-summary, .exp-desc, .exp-role, .exp-date, .exp-company, .capabil
     align-items: center;
     justify-content: center;
     background: #181818;
-    color: #eaff9a;
+    color: #fdefdf;
     border-radius: 50%;
     width: 44px;
     height: 44px;
@@ -56,7 +56,7 @@ body, p, .about-summary, .exp-desc, .exp-role, .exp-date, .exp-company, .capabil
 }
 
 .icon-btn:hover {
-    background: #eaff9a;
+    background: #d4a574;
     color: #181818;
 }
 
@@ -89,9 +89,9 @@ body, p, .about-summary, .exp-desc, .exp-role, .exp-date, .exp-company, .capabil
 }
 
 .capability-badge:hover {
-    background: #eaff9a;
+    background: #d4a574;
     color: #181818;
-    border-color: #eaff9a;
+    border-color: #d4a574;
 }
 
 .experience-item {
@@ -105,7 +105,7 @@ body, p, .about-summary, .exp-desc, .exp-role, .exp-date, .exp-company, .capabil
 }
 
 .exp-company {
-    color: #eaff9a;
+    color: #d4a574;
     font-weight: 500;
     font-size: 1rem;
     margin-left: 8px;
@@ -124,7 +124,7 @@ body, p, .about-summary, .exp-desc, .exp-role, .exp-date, .exp-company, .capabil
 }
 
 .contact-link {
-    color: #eaff9a;
+    color: #fdefdf;
     text-decoration: underline;
 }
 
@@ -148,12 +148,12 @@ body, p, .about-summary, .exp-desc, .exp-role, .exp-date, .exp-company, .capabil
 .form-control-dark:focus {
     background: #222;
     color: #fff;
-    border-color: #eaff9a;
+    border-color: #fdefdf;
     box-shadow: none;
 }
 
 .btn-submit {
-    background: #eaff9a;
+    background: #d4a574;
     color: #181818;
     border-radius: 30px;
     font-weight: 600;
@@ -163,7 +163,7 @@ body, p, .about-summary, .exp-desc, .exp-role, .exp-date, .exp-company, .capabil
 }
 
 .btn-submit:hover {
-    background: #d4a574;
+    background: #fdefdf;
     color: #fff;
 }
 

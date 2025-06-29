@@ -394,3 +394,34 @@ body {
         height: 25px;
     }
 }
+
+@media (max-width: 991px) {
+    .btn-primary-custom {
+        margin-bottom: 1.5rem;
+    }
+    .hero-image {
+        margin-top: 1.5rem;
+    }
+}
+
+.row.align-items-center.flex-column-reverse.flex-lg-row {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+@media (min-width: 992px) {
+    .row.align-items-center.flex-column-reverse.flex-lg-row {
+        flex-direction: row;
+    }}
+@media (max-width: 991px) {
+    #contact .social-links {
+        margin-bottom: 2rem;
+    }
+
+    .hero {
+        margin-top: 70px; /* Adjust based on your navbar height */
+    }
+
+
+}

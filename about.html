@@ -16,9 +16,18 @@
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container">
             <a class="navbar-brand brand-with-logo" href="index.html">
+                <svg class="brand-logo" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M100 20L140 80L120 100L100 60L80 100L60 80L100 20Z" fill="#D4A574"/>
+                    <path d="M60 80C60 80 40 120 60 160C80 200 120 200 140 160C160 120 140 80 140 80" stroke="#F5E6D3" stroke-width="8" fill="none" opacity="0.6"/>
+                    <path d="M80 100C90 110 110 110 120 100" stroke="#F5E6D3" stroke-width="4" fill="none" opacity="0.8"/>
+                </svg>
                 <span class="brand-text">JENNIFER AMANZE</span>
             </a>
-            <div class="collapse navbar-collapse justify-content-end">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="index.html#work">Work</a></li>
@@ -191,6 +200,7 @@
                 hero.style.transform = `translateY(${scrolled * 0.5}px)`;
             }
         });
+        
     </script>
 </body>
 </html>
