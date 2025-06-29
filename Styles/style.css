@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Manrope', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background: var(--dark-bg);
     color: var(--text-light);
     line-height: 1.6;
@@ -67,8 +67,8 @@ body {
 }
 
 .brand-logo {
-    width: 35px;
-    height: 35px;
+    width: 38px;
+    height: 38px;
     transition: transform 0.3s ease;
 }
 
@@ -76,6 +76,7 @@ body {
     font-weight: 700;
     font-size: 1.4rem;
     letter-spacing: 0.5px;
+    line-height: 1.2 !important;
 }
 
 .navbar-brand:hover .brand-logo {
@@ -134,11 +135,11 @@ body {
 }
 
 .social-links {
-    margin-top: 2rem;
+    margin-top: 0rem;
 }
 
 .social-links a {
-    color: var(--text-muted);
+    color: var(--text-light);
     font-size: 1.5rem;
     margin-right: 1rem;
     transition: color 0.3s ease;
@@ -146,6 +147,28 @@ body {
 
 .social-links a:hover {
     color: var(--primary-color);
+}
+
+.hero-content .social-links {
+    display: flex;
+    align-items: center;
+    gap: 12px; /* Adjust for more/less space between icons */
+    margin-bottom: 0;
+}
+
+.hero-content .social-links a {
+    font-size: 1.5rem; /* Make icons a bit larger */
+    color: #fdefdf;       
+    transition: color 0.2s;
+}
+
+.hero-content .social-links a:hover {
+    color: var(--primary-color); /* Or any accent color */
+}
+
+.hero-content .btn-primary-custom {
+    display: flex;
+    align-items: center;
 }
 
 .hero-image {
@@ -169,6 +192,26 @@ body {
     font-weight: 700;
     margin-bottom: 3rem;
     text-align: left;
+}
+
+/* Apply Bebas Neue to specific headings and navbar brand */
+.navbar .brand-text,
+.hero-content h1,
+.section-title,
+#about .section-title,
+#contact .section-title {
+    font-family: 'Bebas Neue', Arial, sans-serif;
+    font-weight: 400;
+    line-height: 100px;
+    letter-spacing: 1px;
+}
+
+/* Optional: Adjust for better appearance on smaller screens */
+@media (max-width: 768px) {
+    .hero-content h1,
+    .section-title {
+        line-height: 1.1;
+    }
 }
 
 /* Project Cards */
@@ -213,7 +256,7 @@ body {
 }
 
 .project-description {
-    color: var(--text-muted);
+    color: var(--text-light);
     margin-bottom: 1.5rem;
 }
 
@@ -289,7 +332,7 @@ body {
     background: var(--dark-bg);
     padding: 2rem 0;
     text-align: center;
-    color: var(--text-muted);
+    
 }
 
 /* Logo Styling */
